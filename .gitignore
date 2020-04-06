@@ -1,0 +1,10 @@
+Untitled.ipynb
+.vscode
+.ipynb_checkpoints
+__pycache__
+config/
+credentials
+google-credentials.json
+__pycache__
+.env
+.dockerignore
