@@ -40,7 +40,7 @@ mails_roundcube = ucr.get_email_from_last(num_days, folders, email_OP)
 mail_Dict = ucr.select_last_mail_of_each_sender(mails_roundcube)
 
 # Get the sheet to use 
-coordo_sheet = client.open("Copy-Coordo/Mediation")
+coordo_sheet = client.open("Coordo/Mediation")
 
 # Mise a jour de toutes les notes sur le sheet
 ucr.update_all_note_on_sheet(coordo_sheet, mail_Dict)
