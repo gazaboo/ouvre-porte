@@ -15,4 +15,4 @@ PySocks==1.7.1
 requests==2.23.0
 rsa==4.0
 six==1.14.0
-urllib3==1.25.7
+urllib3==1.26.5
